@@ -1,0 +1,17 @@
+/*============ BUTTON ==============*/
+.button {
+
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #1a1a1a;
+    padding: .75rem 1.5rem;
+    font-weight: var(--font-semi-bold);
+    transition: .3s;
+
+    &:hover {
+        background-color: var(--first-color-alt);
+    }
+    &__header {
+        display: none;
+    }
+}
