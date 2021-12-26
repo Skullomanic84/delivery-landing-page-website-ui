@@ -22,5 +22,15 @@
         &:hover {
             background-color: transparent;
         }
+    } 
+    &-flex {
+        display: inline-flex;
+        align-items: center;
+        column-gap: .25rem;
+        padding: .75rem 1rem;
+    }
+
+    &_icon {
+        font-size: 1.5rem;
     }
 }
