@@ -101,3 +101,50 @@
 
 
 /*For large device*/
+@media  screen and (min-width: 1440px) {
+    .container {
+        margin: 0 auto;
+    }
+
+    .home {
+        &__description {
+            padding-right: 5rem;
+        }
+    }
+    .button__header {
+        display: block;
+    }
+
+    .svg__img {
+        width: 570px;
+    }
+
+    .about__container,
+    .security__container,
+    .app__container,
+    .contact__container {
+        column-gap: 6rem;
+    }
+
+    .services__container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .contact__container {
+        grid-template-columns: 3fr 1.5fr 1.25fr;
+    }
+
+    .footer {
+        &__container{
+        grid-template-columns: repeat(5, 1fr);
+        column-gap: 3rem;
+        }
+        &__socials {
+            align-items: flex-start;
+
+            &-link {
+                font-size: 1.45rem;
+            }
+        }
+    }
+}
